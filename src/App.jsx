@@ -18,7 +18,7 @@ function App() {
 
   useEffect(() => {
     // Fetch questions from exam.json
-    fetch('src/exam.json') // Replace with the actual path
+    fetch('public/data/exam.json') // Replace with the actual path
       .then(response => response.json())
       .then(data => setQuestions(data.questions))
       .catch(error => console.error('Error fetching questions:', error));
