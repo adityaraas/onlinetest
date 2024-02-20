@@ -1,0 +1,122 @@
+/* src/App.css */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+label {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+input[type="radio"] {
+  margin-right: 8px;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 16px;
+  height: 16px;
+  border: 2px solid #4caf50;
+  border-radius: 50%;
+  outline: none;
+}
+
+input[type="radio"]:checked {
+  background-color: #4caf50;
+}
+
+button {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  outline: none;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.container.shining {
+  /* Add shining effect styles here */
+}
+
+.main-content.completion-screen {
+  text-align: center;
+  padding: 30px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 50px;
+}
+
+h2 {
+  color: #4caf50; /* Green color for success */
+}
+
+.completion-summary {
+  margin-bottom: 20px;
+}
+
+.analysis-box {
+  text-align: left;
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+.analysis-box h3 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.analysis-box p {
+  margin: 5px 0;
+  color: #555;
+}
+
+.party-time {
+  background: linear-gradient(45deg, #FFD700, #FF6347);
+  animation: party-time 2s infinite;
+}
+
+@keyframes party-time {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+/* Add more styles as needed */
+
